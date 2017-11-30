@@ -348,7 +348,27 @@ enum {
      * <a href="@dacRoot/guide/topics/resources/providing-resources.html#NightQualifier">night</a> resource qualifier specified.
      */
     ACONFIGURATION_UI_MODE_NIGHT_YES = 0x2,
-
+    /**
+     * UI night mode: value that corresponds to NightQualifier "tesla"
+     */
+    ACONFIGURATION_UI_MODE_NIGHT_TESLA = 0x3,
+    /**
+     * UI night mode: value that corresponds to NightQualifier "tipsy"
+     */
+    ACONFIGURATION_UI_MODE_NIGHT_TIPSY = 0x4,
+    /**
+     * UI night mode: value that corresponds to NightQualifier "validus"
+     */
+    ACONFIGURATION_UI_MODE_NIGHT_VALIDUS = 0x5,
+    /**
+     * UI night mode: value that corresponds to NightQualifier "retro"
+     */
+    ACONFIGURATION_UI_MODE_NIGHT_RETRO = 0x6,
+    /**
+     * UI night mode: value that corresponds to NightQualifier "mint"
+     */
+    ACONFIGURATION_UI_MODE_NIGHT_MINT = 0x7,    
+    
     /** Screen width DPI: not specified. */
     ACONFIGURATION_SCREEN_WIDTH_DP_ANY = 0x0000,
 
